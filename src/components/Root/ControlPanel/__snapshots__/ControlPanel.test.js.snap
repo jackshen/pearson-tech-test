@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlPanel InputSlider works properly 1`] = `"65.2"`;
+
+exports[`ControlPanel InputSlider works properly 2`] = `"-24.2"`;
+
+exports[`ControlPanel InputSlider works properly 3`] = `"-72.7"`;

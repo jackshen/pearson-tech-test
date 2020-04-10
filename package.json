@@ -1,0 +1,36 @@
+{
+  "name": "pearson-tech-test",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "~7.9.5",
+    "@babel/preset-react": "~7.9.4",
+    "@testing-library/cypress": "^6.0.0",
+    "@testing-library/dom": "7.2.1",
+    "@testing-library/react": "^10.0.1",
+    "babel-jest": "~25.3.0",
+    "cypress": "^4.2.0",
+    "cypress-plugin-snapshots": "^1.3.0",
+    "jest": "^25.2.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "scripts": {
+    "test": "jest src",
+    "test:cypress": "cypress open",
+    "watch": "parcel src/index.html"
+  },
+  "alias": {
+    "#root": "./src"
+  },
+  "dependencies": {
+    "polished": "^3.5.1",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "react-is": ">= 16.8.0",
+    "styled-components": "^5.1.0"
+  }
+}
